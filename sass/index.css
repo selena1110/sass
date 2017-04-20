@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*瀹氫箟鍙橀噺*/
+body {
+  margin: 0px;
+  padding: 0px; }
+
+p.son1 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  margin-left: 20px;
+  background: #d5c1a2; }
+
+div {
+  width: 200px;
+  height: 200px;
+  background: #090;
+  color: pink;
+  clear: both; }
+
+div p {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  font-size: 28px;
+  border: 1px solid;
+  border-color: #a0b0d0; }
+
+/*# sourceMappingURL=index.css.map */

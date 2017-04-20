@@ -1,0 +1,37 @@
+$div-color:#090;
+$font-color:pink;/*定义变量*/
+body{
+	margin:0px;
+	padding:0px;
+}
+@mixin left{
+	float:left;
+	margin-left:20px;
+}
+p.son1{
+    $bg-color:#d5c1a2;
+    margin:0px;
+    padding:0px;
+	@include left;
+	background:$bg-color;
+}
+div{
+    $width:200px;
+    width:$width;
+    height:$width;
+	background:$div-color;
+	color:$font-color;
+	clear:both;
+}
+div{
+	p{
+	 clear:both;
+	 margin:0px;
+	 padding:0px;
+	 font-size:28px;
+	 border:1px solid;
+	 border:{
+	 color:#a0b0d0;
+	 }
+	}
+}
